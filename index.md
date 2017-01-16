@@ -9,3 +9,5 @@ title: 我的Blog
 {% for post in site.posts %}
     {{ post.date | date_to_string }} [{{ post.title }}]({{ site.baseurl }}{{ post.url }})
 {% endfor %}
+
+[Baidu](http://www.baidu.com)
